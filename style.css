@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#8D2806 ;
+}
+.navigation-bar{
+    width: 100%;
+    height: 60px;
+}
+.logo img{
+    width: 140px;
+    height: 60px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+}
+.navigation-bar ul{
+    list-style-type: none;
+    padding: 0px 10px; 
+    font-size: 20px;
+    margin-top: 30px;
+    float: right;
+}
+.navigation-bar ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.navigation-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navigation-bar ul li a:hover{
+    text-decoration: underline;
+}
+.left-area{
+    width: 60%;
+    display: block;
+}
+.navigation-bar ul li input{
+    padding: 5px 15px;
+    background-color: #8D2806;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.navigation-bar ul li input:hover{
+    background-color: white;
+    color: gray;
+}
+.left-area h1{
+    width: 700px;
+    font-size: 55px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+.find{
+    margin-left: 20px;
+    float: left;
+}
+.find input{
+    padding: 10px 200px;
+    float: left;
+    border: 0;
+    font-size: 20px;
+    float: left;
+}
+.btn input{
+    padding: 10px 40px;
+    background: #19A463;
+    border: 0;
+    font-size: 20px;
+    color: white;
+}
+.btn input:hover{
+    background: #16e581 ;
+}
+.top-search ul li{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.top-search ul li a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.top-search ul li a:hover{
+    background-color: white;
+    color: rgb(61, 59, 59);
+}
+.top-search ul .p{
+    font-size: 20px;
+    color: white;
+}
+.right-area{
+    width: 40%;
+}
+.right-area img{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -360px;
+}
+
+
